@@ -1,0 +1,190 @@
+*
+{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+ margin:0;
+ padding:0;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size:24px;
+}
+.headerdiv
+{
+    position:fixed;
+    background-color: darkcyan;
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    height:100px;
+    padding:30px;
+    top:0;
+
+}
+.mainimg
+{
+   
+width:100%;
+background-image: url("./images/frontimage2.jpg");
+height:100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+.maindiv
+{
+    display:flex;
+   justify-content: space-around;
+
+}
+}
+.links a
+{
+   text-align: right;
+   margin-right:50px;
+   font-size: 30px;
+   text-decoration: none;
+  
+}
+.headerdiv a{
+    text-decoration: none;
+    font-size:larger;
+    color:rgba(255,255,255,0.6);
+}
+.caption
+{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding:50px;
+   
+    
+}
+.caption p:first-child
+{margin-top: -300px;
+    color:rgb(13, 111, 192);
+    font-size:60px;
+    margin-bottom: 0px;
+    text-shadow: 3px 2px black;
+}
+.caption p:last-child
+{
+    font-size: 40px;
+    font-style: italic;
+    color:rgba(53, 145, 182,.7);
+}
+.register
+{
+    background-color: rgb(250, 250, 250);
+    margin-top: 300px;
+    padding:30px 40px;
+    border:none;
+    border-radius:15px;
+   
+    width:400px;
+   
+}
+.input-group
+{
+    display:flex;
+    flex-direction:column;
+    font-size: 20px;
+    margin:30px auto;
+    width:300px;
+  
+}
+label{
+  
+ 
+   color: rgb(30, 139, 167);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   text-shadow: 1px 1px black;
+   
+
+}
+.input-group input{
+    border:none;
+    padding:5px;
+    border-bottom:3px solid rgba(89, 93, 95,0.7);
+    outline:none;
+    font-size: 20px;
+
+}
+.reg-button
+{
+    background-color: darkgreen;
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   border:none;
+   height:40px;
+   border-radius:10px;
+}
+
+#register-form
+{
+    display:flex;
+    flex-direction: column;
+
+}
+.aboutdiv
+{
+    displaY:flex;
+    margin:5px;
+    padding:10px;
+    justify-content:space-around;
+
+}
+.easy,.every,.focus
+{
+    background-color: rgba(72, 166, 179,0.4);
+    display:flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    font-size: 18px;
+
+}
+.aboutdiv img
+{
+    border:solid 1px;
+    box-shadow: 3px 3px rgba(54, 54, 54,.5);
+}
+
+#faq
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(227, 228, 228,.8);
+}
+#Resources  
+{
+  
+    justify-content: center;
+    padding:20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(72, 166, 179,0.2);
+}
+#footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 5px 2px black;
+    color:white;
+
+}
